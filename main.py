@@ -208,8 +208,8 @@ if __name__ == "__main__":
             )
             for c in np.arange(0, n_sc + 1, 1):
                 user_price[c] = calc_user_price(c)
-            print("m: " + str(math.floor(m / 60)) + " Gas price:" + str(round(gas_price[0])) + " User price:" + str(
-                round(user_price[0])) + " Rate: " + str(round(l, 0)) + " mempool: " + str(
+            print("minute: " + str(math.floor(m / 60)) + " Gas price [gwei]:" + str(round(gas_price[0])) + " Minimum bid gas price [gwei]:" + str(
+                round(user_price[0])) + " Transactions flow [#/h]: " + str(round(l, 0)) + " Mempool size: " + str(
                 len(mempool.loc[mempool['sc'] == 0])))
 
     # combine all data in one dataframe for charts
