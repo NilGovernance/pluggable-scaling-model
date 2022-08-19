@@ -7,12 +7,7 @@
 1. Install pip 
 > sudo apt install python3-pip
 2. Install pandas, plotly, numpy, scipy
-```
-pip install pandas
-pip install scipy
-pip install numpy
-pip install plotly
-```
+> pip install pandas scipy numpy plotly
 
 ## Run script
 Change assumptions in the **Input assumptions** section (please, read the comments with description first)
