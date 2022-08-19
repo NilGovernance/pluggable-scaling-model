@@ -1,7 +1,7 @@
 # Pluggable scaling model for Ethereum cluster
 
-## Technology
-- Python 3.10
+## Requirements
+- Python >= 3.10
 
 ## Installation
 1. Install pip 
